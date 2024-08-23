@@ -1,0 +1,131 @@
+html, body {
+    min-height: 50%;
+}
+ html,.sidebar{
+    min-height: 10%;
+ }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff7ee;
+    padding: 1em;
+    text-align: center;
+
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff7ee;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-image:url(./img/2dooo.jpg)
+
+}
+
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #fff7ee;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #fff7ee;
+    color: black;
+    position:fixed ;
+    top: 200;
+    right: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.main-content {
+    margin-left: 270px; /* Espacio para el sidebar */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.image-container {
+    margin-top: 10px; /* Espacio entre el subtítulo y las imágenes */
+}
+
+.image-container img {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px; /* Espacio entre las imágenes */
+    vertical-align: middle; /* Alinea las imágenes en el centro */
+}
+
